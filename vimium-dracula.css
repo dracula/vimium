@@ -34,7 +34,8 @@ div > .vimiumHintMarker > .matchingCharacter {
 
 #vomnibar input {
   color: #f8f8f2;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font: -moz-window;
+  /*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
   font-size: 20px;
   height: 34px;
   margin-bottom: 0;
