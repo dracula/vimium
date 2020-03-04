@@ -32,6 +32,10 @@ div > .vimiumHintMarker > .matchingCharacter {
   color: #6272a4;
 }
 
+#vomnibar{
+    background-color: #44475A;
+}
+
 #vomnibar input {
   color: #f8f8f2;
   font: -moz-window;
@@ -63,6 +67,8 @@ div > .vimiumHintMarker > .matchingCharacter {
   list-style: none;
   padding: 10px 0;
   padding-top: 0;
+  margin-block-start: 2px;
+  margin-block-end: 0px;
 }
 
 #vomnibar li {
