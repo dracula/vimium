@@ -58,15 +58,15 @@ div > .vimiumHintMarker > .matchingCharacter {
   padding: 10px;
   background-color: #6272a4;
   border-radius: 4px 4px 0 0;
-  border-bottom: 1px solid #bd93f9;
+  border-bottom: 0px solid #bd93f9;
 }
 
 #vomnibar ul {
   background-color: #44475a;
   border-radius: 0 0 4px 4px;
   list-style: none;
-  padding: 10px 0;
   padding-top: 0;
+  padding-bottom: 0;
   margin-block-start: 2px;
   margin-block-end: 0px;
 }
