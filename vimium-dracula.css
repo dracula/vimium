@@ -32,6 +32,34 @@ div > .vimiumHintMarker > .matchingCharacter {
   color: #6272a4;
 }
 
+/* HUD ("heads-up display") bar */
+div.vimiumHUD {
+  background: #282a36;
+  border: 1px solid #6272a4;
+}
+
+div.vimiumHUD .vimiumHUDSearchArea {
+  background: #282a36;
+}
+
+div.vimiumHUD .hud-find {
+  background: #282a36;
+  border: none;
+  color: #f8f8f2;
+}
+
+div.vimiumHUD span#hud-find-input{
+  color: #f8f8f2;  /* 'Foreground' color */
+}
+
+div.vimiumHUD span#hud-match-count {
+  color: #6272a4;  /* 'Comment' color */
+}
+
+div.vimiumHUD .vimiumHUDSearchAreaInner {
+  color: #6272a4;  /* 'Comment' color */
+}
+
 #vomnibar{
     background-color: #44475A;
 }
@@ -76,7 +104,7 @@ div > .vimiumHintMarker > .matchingCharacter {
   line-height: 1.1em;
   padding: 7px 10px;
   font-size: 16px;
-  color: f8f8f2;
+  color: #f8f8f2;
   position: relative;
   display: list-item;
   margin: auto;
