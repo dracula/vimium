@@ -48,20 +48,25 @@ div.vimiumHUD .hud-find {
   color: #f8f8f2;
 }
 
-div.vimiumHUD span#hud-find-input{
-  color: #f8f8f2;  /* 'Foreground' color */
+div.vimiumHUD span#hud-find-input {
+  color: #f8f8f2; /* 'Foreground' color */
 }
 
 div.vimiumHUD span#hud-match-count {
-  color: #6272a4;  /* 'Comment' color */
+  color: #6272a4; /* 'Comment' color */
 }
 
 div.vimiumHUD .vimiumHUDSearchAreaInner {
-  color: #6272a4;  /* 'Comment' color */
+  color: #6272a4; /* 'Comment' color */
 }
 
-#vomnibar{
-    background-color: #44475A;
+body {
+  background-color: #282a36;
+  color: #f8f8f2;
+}
+
+#vomnibar {
+  background-color: #44475a;
 }
 
 #vomnibar input {
@@ -142,13 +147,17 @@ div.vimiumHUD .vimiumHUDSearchAreaInner {
   color: #ffb86c;
 }
 
-#vomnibar li em, #vomnibar li .vomnibarTitle {
+#vomnibar li em,
+#vomnibar li .vomnibarTitle {
   color: #f8f8f2;
   margin-left: 4px;
   font-weight: normal;
 }
-#vomnibar li em { font-style: italic; }
-#vomnibar li em .vomnibarMatch, #vomnibar li .vomnibarTitle .vomnibarMatch {
+#vomnibar li em {
+  font-style: italic;
+}
+#vomnibar li em .vomnibarMatch,
+#vomnibar li .vomnibarTitle .vomnibarMatch {
   color: #ffb86c;
 }
 
